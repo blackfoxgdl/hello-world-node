@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/check', (req, res) => {
-  res.status(200).json({ name: 'Ruben' });
+  res.status(200).json({ name: 'Ruben Alonso' });
 });
 
 module.exports = app.listen(4000, () =>
