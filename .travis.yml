@@ -8,3 +8,11 @@ script:
 branches:
   only:
     - main
+    - dev
+deploy:
+  provider: heroku
+  api_key:
+    secure: 8c785842-c2c8-4053-9c4b-5fdac2012bf1
+  app:
+    master: node-hello-world-prod
+    dev: node-hello-world-stagging
