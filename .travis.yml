@@ -14,7 +14,7 @@ before_deploy:
 deploy:
   provider: heroku
   api_key:
-    secure: 42af3af9-3126-4227-ad37-566d3cb0ff0a
+    secure: 8c785842-c2c8-4053-9c4b-5fdac2012bf1
   app:
     master: node-hello-world-prod
     dev: node-hello-world-stagging
